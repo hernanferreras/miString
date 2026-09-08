@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1788694111 source:c:\users\silva\onedrive\documentos\codeblocks\proyectos\mistrings\string\main.c
+	<stdio.h>
+	<stdlib.h>
+	"../funcionesString/funciones.h"
+
+1788694150 c:\users\silva\onedrive\documentos\codeblocks\proyectos\mistrings\funcionesstring\funciones.h
+
