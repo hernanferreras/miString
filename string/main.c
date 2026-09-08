@@ -8,10 +8,12 @@
 int main()
 {
 
-    char cad1[TAM] = "Prueba de Candena";
-    char cad2[TAM] = "Esto es una cadena de prueb";
+    char cad1[TAM] = "PRUEBA DE CADENA";
+    char cad2[TAM] = "Prueba de Cadena";
 
-    // PRUEBA DE STRLEN
+    printf("CADENA 1: %s\n", cad1);
+    printf("CADENA 2: %s\n\n", cad2);
+    //PRUEBA DE STRLEN
     printf("STRLEN: La cantidad de caracteres de la cadena es de %d caracteres.\n", miStrlen(cad1));
 
     //PRUEBA DE STRCMP
@@ -19,7 +21,7 @@ int main()
         printf("STRCMP: Las cadenas son iguales\n");
     } else
     {
-        printf("STRCMP: Las cadenas son diferentes\n");
+        printf("STRCMP: Las cadenas son diferentes (%d)\n", miStrcmp(cad1, cad2));
     }
 
     return 0;
