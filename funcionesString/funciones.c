@@ -1,5 +1,6 @@
 #include "funciones.h"
 
+#define esMayuscula(C) (((C) >= 'A') && ((C) <= 'Z'))
 
 /*void secuenciaPalabraCrear(secuenciaPalabra* sec, const char* c)
 {
@@ -46,3 +47,22 @@ int miStrcmp(const char* cad1, const char* cad2)
     }
 }
 
+int miStrcmpi(const char* cad1, const char* cad2)
+{
+    char* puntACad1 = cad1;
+    char* puntACad2 = cad2;
+    bool flag = false;
+
+    while((*puntACad1) != '\0' || (*puntACad2) != '\0')
+    {
+        if(esMayuscula())
+
+    }
+
+}
+char* miStrcpy(char* cadDest, const char* cadOrig);
+char* miStrncpy(char* cadDest, const char* cadOrig, size_t n);
+char* miStrstr(const char* cad, const char* subCad);
+char* miStrchr(const char* cad, char c);
+char* miStrcat(char* cad1, const char* cad2);
+char* miStrncat(char* cad1, const char* cad2, size_t n);
